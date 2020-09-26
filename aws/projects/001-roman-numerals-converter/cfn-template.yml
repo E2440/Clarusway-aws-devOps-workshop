@@ -41,10 +41,10 @@ Resources:
             yum install git -y
             mkdir templates
             sudo chmod -R 777 ./
-            wget https://raw.githubusercontent.com/HasanKaval/Hasan_Cl_AWS_Repo/master/aws/projects/001-roman-numerals-converter/app.py
+            wget https://raw.githubusercontent.com/E2440/Clarusway-aws-devOps-workshop/master/aws/projects/001-roman-numerals-converter/app.py
             cd templates
-            wget https://raw.githubusercontent.com/HasanKaval/Hasan_Cl_AWS_Repo/master/aws/projects/001-roman-numerals-converter/templates/index.html
-            wget https://raw.githubusercontent.com/HasanKaval/Hasan_Cl_AWS_Repo/master/aws/projects/001-roman-numerals-converter/templates/result.html
+            wget https://raw.githubusercontent.com/E2440/Clarusway-aws-devOps-workshop/master/aws/projects/001-roman-numerals-converter/templates/index.html
+            wget https://raw.githubusercontent.com/E2440/Clarusway-aws-devOps-workshop/master/aws/projects/001-roman-numerals-converter/templates/result.html
             cd ..
             python3 app.py
 Outputs:
